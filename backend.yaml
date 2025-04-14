@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: arecgisv2-backend
-        image: dextiee/arecgis-v2:v2
+        image: dextiee/arecgis-v2:v3
         ports:
         - containerPort: 3000
       dnsPolicy: Default
